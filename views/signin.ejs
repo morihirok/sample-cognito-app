@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Cognito App</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src='/javascripts/login.js'></script>
+  </head>
+  <body>
+    <div id="login">
+      <h1>Sign in</h1>
+      <form name='form-login'>
+        <span class="fontawesome-user"></span>
+        <input type="text" id="username" placeholder="Username">
+        <span class="fontawesome-lock"></span>
+        <input type="password" id="password" placeholder="Password">
+        <input type="submit" value="Login" id="signin-btn">
+        <a class="fb-btn" href="/facebook_request_auth">
+          <div class="fb-btn-label">Login with Facebook</div>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
